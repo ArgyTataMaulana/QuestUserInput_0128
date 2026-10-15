@@ -115,7 +115,7 @@ fun FormatDataDiri(modifier: Modifier){
             colors = CardDefaults.cardColors(containerColor = Color.Black),
             modifier = Modifier
                 .height(100.dp)
-                .width(100.dp)
+                .width(300.dp)
         ) {
             Column(modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp)) {
                 Text(text = "Nama : "+nama, color = Color.White)
