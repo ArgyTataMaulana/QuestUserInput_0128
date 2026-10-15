@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestUserInput_0128Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    FormatDataDiri(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
